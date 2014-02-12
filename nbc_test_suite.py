@@ -11,7 +11,7 @@ from operator import itemgetter
 log_file = 'nbc_test_suite_output.log'
 source_file_name = "files to test.txt"
 file_data = []
-source_url_base = "http://stream.nbcsports.com/data/mobile/"
+source_url_base = "http://.../data/mobile/"# Ask Francis for the base
 source_urls = []
 
 source_buckets = ["replay", "showcase", "spotlight"]  # lowercase buckets only!
