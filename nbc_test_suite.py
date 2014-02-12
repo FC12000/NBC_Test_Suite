@@ -16,11 +16,7 @@ source_urls = []
 
 source_buckets = ["replay", "showcase", "spotlight"]  # lowercase buckets only!
 source_keys = ["id", "eventId", "iosStreamUrl", "androidStreamUrl", "start", "length", "title", "info", "link", "image", "free", "oc", "sport", "league"]  
-#source_urls = ["http://stream.nbcsports.com/data/mobile/featured-2013.json", "http://brandme-prod.s3.amazonaws.com/learfield/weeks/foooooo.json", "http://stream.nbcsports.com/data/mobile/nfl.json", "http://brandme-prod.s3.amazonaws.com/learfield/weeks/zoooooo.json", "http://brandme-prod.s3.amazonaws.com/learfield/weeks/boooooo.json"] # TODO Francis add the files we need. 
-#source_urls = ["http://stream.nbcsports.com/data/mobile/featured-oly-2013.json",
-    #"https://dl.dropboxusercontent.com/u/256718337/NBC/live-oly_mens_downhill_event_added.json",
-    #"https://dl.dropboxusercontent.com/u/256718337/NBC/live-oly_mens_downhill_event_added_duplicate_pid.json"
-    #"https://dl.dropboxusercontent.com/u/256718337/NBC/featured-oly-2013_duplicate_pid_13397.json"]
+
 
 
 logging.basicConfig(level=logging.DEBUG, format='%(asctime)s %(levelname)s %(message)s', filename=log_file, filemode='w')
